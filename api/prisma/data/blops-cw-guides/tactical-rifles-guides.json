@@ -1,0 +1,41 @@
+{
+  "guides": [
+    {
+      "title": "TheXclusiveAce's Type 63 #1",
+      "description": "",
+      "tags": [],
+      "source": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ry5rtRkMEeE&list=PLnAiSQ-bKCPt8iltcVrBhAreOnc4zPLgO&index=17",
+      "primary": {
+        "name": "Type 63",
+        "category": "Tactical Rifle",
+        "categoryId": 7,
+        "attachments": [
+          "Millstop Reflex",
+          "Silencer",
+          "16.4\"\" Titanium",
+          "Spetsnaz Grip",
+          "GRU Elastic Wrap"
+        ]
+      },
+      "secondary": {
+        "name": "Gallo SA12",
+        "attachments": [],
+        "link": "https://www.youtube.com/watch?v=ngDF5H0a2tg",
+        "category": "Shotgun",
+        "categoryId": 4
+      },
+      "perks": [
+        ["Flak Jacket", "Tactical Mask"],
+        ["Assassin", "Scavenger"],
+        ["Ninja", "Ghost"]
+      ],
+      "equipment": {
+        "lethal": "Semtex",
+        "tactical": "Stimshot",
+        "fieldUpgrade": "Trophy System"
+      },
+      "wildcard": "Perk Greed"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "guides": [
+    {
+      "title": "TheXclusiveAce's QBZ-83 #1",
+      "description": "",
+      "tags": [],
+      "source": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=P2JtMxchOtE&list=PLnAiSQ-bKCPt8iltcVrBhAreOnc4zPLgO&index=6",
+      "primary": {
+        "category": "Assault Rifle",
+        "categoryId": 1,
+        "name": "QBZ-83",
+        "attachments": [
+          "Suppressor",
+          "16.5\"\" Ranger",
+          "Infiltrator Grip",
+          "SAS Mag Clamp",
+          "Airborne Elastic Wrap"
+        ]
+      },
+      "secondary": {},
+      "perks": [
+        ["Flak Jacket", "Tactical Mask"],
+        ["Assassin", "Scavenger"],
+        ["Ninja", "Ghost"]
+      ],
+      "equipment": {
+        "lethal": "Semtex",
+        "tactical": "Stimshot",
+        "fieldUpgrade": "Field Mic"
+      },
+      "wildcard": "Perk Greed"
+    },
+    {
+      "title": "TheXclusiveAce's QBZ-83 #2",
+      "description": "",
+      "tags": [],
+      "source": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=P2JtMxchOtE&list=PLnAiSQ-bKCPt8iltcVrBhAreOnc4zPLgO&index=6",
+      "primary": {
+        "category": "Assault Rifle",
+        "categoryId": 1,
+        "name": "QBZ-83",
+        "attachments": [
+          "Microflex LED",
+          "Muzzle Brake 5.56",
+          "15.5\"\" Reinforced Heavy",
+          "Bruiser Grip",
+          "40 Rnd Speed Mag",
+          "Tactical Stock",
+          "Steady Aim Laser",
+          "Airborne Elastic Wrap"
+        ]
+      },
+      "secondary": {
+        "category": "Shotgun",
+        "categoryId": 4,
+        "name": "Gallo SA12",
+        "attachments": [
+          "Infantry V-Choke or Agency Choke",
+          "25.2\"\" Task Force",
+          "SWAT 5mw Laser Sight",
+          "-- TODO: magazine attachment --",
+          "Marathon Stock or No Stock"
+        ],
+        "link": "https://www.youtube.com/watch?v=ngDF5H0a2tg"
+      },
+      "perks": [["Forward Intel"], ["Gearhead"], ["Ninja"]],
+      "equipment": {
+        "lethal": "Semtex",
+        "tactical": "Stun Grenade",
+        "fieldUpgrade": "Assault Pack"
+      },
+      "wildcard": "Gunfighter"
+    }
+  ]
+}

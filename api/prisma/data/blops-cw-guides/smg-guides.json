@@ -1,0 +1,189 @@
+{
+  "guides": [
+    {
+      "title": "TheXclusiveAce's MP5 #1",
+      "description": "",
+      "tags": [],
+      "source": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=b4u8ag29RH8&list=PLnAiSQ-bKCPt8iltcVrBhAreOnc4zPLgO&index=9",
+      "primary": {
+        "name": "MP5",
+        "category": "Submachine Gun",
+        "categoryId": 5,
+        "attachments": [
+          "Agency Suppressor",
+          "9.5\"\" Reinforced Heavy",
+          "Field Agent Grip",
+          "SAS Mag Clamp",
+          "Airborne Elastic Wrap"
+        ]
+      },
+      "secondary": {},
+      "perks": [
+        ["Flak Jacket", "Tactical Mask"],
+        ["Gearhead", "Scavenger"],
+        ["Ninja", "Ghost"]
+      ],
+      "equipment": {
+        "lethal": "Semtex",
+        "tactical": "Stimshot",
+        "fieldUpgrade": "Trophy System"
+      },
+      "wildcard": "Perk Greed"
+    },
+    {
+      "title": "TheXclusiveAce's MP5 #2",
+      "description": "",
+      "tags": [],
+      "source": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=b4u8ag29RH8&list=PLnAiSQ-bKCPt8iltcVrBhAreOnc4zPLgO&index=9",
+      "primary": {
+        "category": "Submachine Gun",
+        "categoryId": 5,
+        "name": "MP5",
+        "attachments": [
+          "Microflex LED",
+          "Sound Suppressor",
+          "9.5\"\" Ranger",
+          "SWAT 5mw Laser Sight",
+          "SFOD Speedgrip",
+          "Salvo 40 Rnd Fast Mag",
+          "Speed Tape",
+          "No Stock"
+        ]
+      },
+      "secondary": {},
+      "perks": [["Flak Jacket"], ["Scavenger"], ["Ninja"]],
+      "equipment": {
+        "lethal": "Semtex",
+        "tactical": "Stimshot",
+        "fieldUpgrade": "Jammer"
+      },
+      "wildcard": "Gunfighter"
+    },
+    {
+      "title": "TheXclusiveAce's LC10 #1",
+      "description": "",
+      "tags": [],
+      "source": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ou-gaZP8Yas",
+      "primary": {
+        "category": "Submachine Gun",
+        "categoryId": 5,
+        "name": "LC10",
+        "attachments": [
+          "Agency Suppressor",
+          "11.9\"\" Reinforced Heavy",
+          "Field Agent Grip",
+          "42 Rnd Speed Mag",
+          "Airborne Elastic Wrap"
+        ]
+      },
+      "secondary": {},
+      "perks": [
+        ["Flak Jacket", "Tactical Mask"],
+        ["Gearhead", "Scavenger"],
+        ["Ninja", "Ghost"]
+      ],
+      "equipment": {
+        "lethal": "Semtex",
+        "tactical": "Stimshot",
+        "fieldUpgrade": "Trophy System"
+      },
+      "wildcard": "Perk Greed"
+    },
+    {
+      "title": "TheXclusiveAce's AK74u #1",
+      "description": "",
+      "tags": [],
+      "source": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=dsxPvPi4gLA&list=PLnAiSQ-bKCPt8iltcVrBhAreOnc4zPLgO&index=11",
+      "primary": {
+        "name": "AK74u",
+        "category": "Submachine Gun",
+        "categoryId": 5,
+        "attachments": [
+          "Sound Suppressor",
+          "9.3\"\" VDV Reinforced",
+          "Foregrip",
+          "40 Rnd Speed Mag",
+          "GRU Elastic Wrap"
+        ]
+      },
+      "secondary": {},
+      "perks": [
+        ["Flak Jacket", "Tactical Mask"],
+        ["Assassin", "Scavenger"],
+        ["Ninja", "Ghost"]
+      ],
+      "equipment": {
+        "lethal": "Semtex",
+        "tactical": "Stimshot",
+        "fieldUpgrade": "Trophy System"
+      },
+      "wildcard": "Perk Greed"
+    },
+    {
+      "title": "TheXclusiveAce's PPSH-41 #1",
+      "description": "",
+      "tags": [],
+      "source": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=-2b6_bxAMu4&list=PLnAiSQ-bKCPt8iltcVrBhAreOnc4zPLgO&index=27",
+      "primary": {
+        "name": "PPSH-41",
+        "category": "Submachine Gun",
+        "categoryId": 5,
+        "attachments": [
+          "GRU Suppressor",
+          "14.9\"\" Reinforced Heavy",
+          "Spetsnaz Grip",
+          "55 Rnd Drum",
+          "Speed Grip"
+        ]
+      },
+      "secondary": {},
+      "perks": [
+        ["Flak Jacket", "Tactical Mask"],
+        ["Assassin", "Scavenger"],
+        ["Ninja", "Ghost"]
+      ],
+      "equipment": {
+        "lethal": "Semtex",
+        "tactical": "Stimshot",
+        "fieldUpgrade": "Trophy System"
+      },
+      "wildcard": "Perk Greed"
+    },
+    {
+      "title": "TheXclusiveAce's PPSH-41 #2",
+      "description": "",
+      "tags": [],
+      "source": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=-2b6_bxAMu4&list=PLnAiSQ-bKCPt8iltcVrBhAreOnc4zPLgO&index=27",
+      "primary": {
+        "name": "PPSH-41",
+        "category": "Submachine Gun",
+        "categoryId": 5,
+        "attachments": [
+          "Sound Suppressor",
+          "GRU 5mw Laser Sight",
+          "Patrol Grip",
+          "Spetsnaz 71 Rnd Drum",
+          "CQB Stock"
+        ]
+      },
+      "secondary": {},
+      "perks": [
+        ["Flak Jacket", "Tactical Mask"],
+        ["Assassin", "Scavenger"],
+        ["Ninja", "Ghost"]
+      ],
+      "equipment": {
+        "lethal": "Semtex",
+        "tactical": "Stimshot",
+        "fieldUpgrade": "Trophy System"
+      },
+      "wildcard": "Perk Greed"
+    }
+  ]
+}

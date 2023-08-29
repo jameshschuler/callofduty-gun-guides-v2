@@ -36,7 +36,7 @@ export function GuideDetails() {
         </Box>
         <Box flexBasis="100%" mx="4">
           <Heading my="8">Secondary</Heading>
-          <GuideBox width="100%" text={guide?.secondary?.name ?? 'Secondary'} />
+          <GuideBox width="100%" text={guide?.secondary?.name ?? 'Player Choice'} />
           <Attachments attachments={guide?.secondary?.attachments} />
         </Box>
       </Flex>

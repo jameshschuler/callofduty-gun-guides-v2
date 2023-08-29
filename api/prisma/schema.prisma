@@ -1,0 +1,46 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Log {
+  id Int @id @default(autoincrement())
+}
+
+model GuideCategory {
+  id     Int     @id
+  name   String  @unique
+  guides Guide[]
+  slug   String
+}
+
+model Game {
+  id          Int     @id
+  name        String  @unique
+  franchise   String
+  publishYear String
+  slug        String
+  guides      Guide[]
+}
+
+model Guide {
+  id                Int           @id @default(autoincrement())
+  guide_category    GuideCategory @relation(fields: [guide_category_id], references: [id])
+  guide_category_id Int
+  game              Game          @relation(fields: [game_id], references: [id])
+  game_id           Int
+  slug              String
+  title             String
+  description       String?
+  source            String?
+  sourceUrl         String?
+  tags              String[]
+  data              Json
+}

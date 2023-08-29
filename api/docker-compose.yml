@@ -1,0 +1,45 @@
+version: '3.8'
+services:
+  api:
+    image: cod-guides-api
+    container_name: api
+    restart: always
+    build: .
+    volumes:
+        - ./:/usr/src/app
+    ports:
+      - ${PORT}:${PORT}
+    depends_on:
+      - db
+
+  db:
+    image: postgres:latest
+    container_name: db
+    hostname: db
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./docker-data/db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+    restart: always
+  
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    depends_on:
+      - db
+    ports:
+      - "5555:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PG_ADMIN_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${admin}
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+    restart: always
+
+volumes: 
+  docker-data:
+  pgadmin-data:

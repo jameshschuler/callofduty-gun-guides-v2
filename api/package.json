@@ -1,0 +1,52 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "prod": "node ./dist/app.js",
+    "dev": "nodemon -e ts,js -I -L --exec node -r tsconfig-paths/register --experimental-specifier-resolution=node --loader ts-node/esm src/app.ts",
+    "build": "tsc",
+    "docker-up:dev": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up",
+    "docker-down:dev": "docker compose -f docker-compose.yml -f docker-compose.dev.yml down",
+    "docker-build:dev": "docker build -t cod-guides-api ."
+  },
+  "prisma": {
+    "seed": "node --experimental-specifier-resolution=node --loader ts-node/esm prisma/seeds/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "@types/pg": "^8.10.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "express": "^4.18.2",
+    "pg": "^8.11.1",
+    "prisma": "^5.0.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/*.test.ts",
+      "**/*.spec.ts",
+      ".git",
+      "node_modules"
+    ],
+    "watch": [
+      "src"
+    ]
+  }
+}

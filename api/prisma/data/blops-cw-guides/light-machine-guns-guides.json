@@ -1,0 +1,40 @@
+{
+  "guides": [
+    {
+      "title": "TheXclusiveAce's MG-82 #1",
+      "description": "",
+      "tags": [],
+      "source": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=vtrGH1--Rns",
+      "primary": {
+        "category": "Light Machine Gun",
+        "categoryId": 3,
+        "name": "MG-82",
+        "attachments": [
+          "Kobra Red Dot",
+          "Agency Suppressor",
+          "16.4\"\" Task Force",
+          "Steady Aim Laser",
+          "Field Agent Grip",
+          "Salvo 150 Rnd Fast Mag",
+          "Airborne Elastic Wrap",
+          "Raider Stock"
+        ]
+      },
+      "secondary": {
+        "category": "Pistol",
+        "categoryId": 2,
+        "name": "1911",
+        "attachments": [],
+        "link": ""
+      },
+      "perks": [["Flak Jacket"], ["Scavenger"], ["Ninja"]],
+      "equipment": {
+        "lethal": "Semtex",
+        "tactical": "Stimshot",
+        "fieldUpgrade": "Field Mic"
+      },
+      "wildcard": "Gunfighter"
+    }
+  ]
+}
