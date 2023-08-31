@@ -11,7 +11,7 @@ export default function Navbar() {
       <Spacer />
 
       <HStack spacing="20px">
-        <Link href="https://github.com/jameshschuler" target="_blank">
+        <Link href="https://github.com/jameshschuler/callofduty-gun-guides-v2" target="_blank">
           <Icon as={FaGithubAlt} boxSize={6} />
         </Link>
       </HStack>
