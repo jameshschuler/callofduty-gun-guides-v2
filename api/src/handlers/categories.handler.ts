@@ -8,8 +8,6 @@ export async function getCategoriesByGame(
   next: NextFunction
 ) {
   try {
-    console.log(req.app.locals);
-
     const { game } = req.app.locals;
 
     const categories = await prisma.guideCategory.findMany({

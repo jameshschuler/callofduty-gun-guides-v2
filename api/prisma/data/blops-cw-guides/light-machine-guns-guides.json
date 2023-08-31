@@ -21,13 +21,7 @@
           "Raider Stock"
         ]
       },
-      "secondary": {
-        "category": "Pistol",
-        "categoryId": 2,
-        "name": "1911",
-        "attachments": [],
-        "link": ""
-      },
+      "secondary": {},
       "perks": [["Flak Jacket"], ["Scavenger"], ["Ninja"]],
       "equipment": {
         "lethal": "Semtex",

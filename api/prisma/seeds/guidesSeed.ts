@@ -19,7 +19,9 @@ export async function seed(prismaClient: PrismaClient) {
   files.forEach((fileName: string) => {
     const rawData = fs.readFileSync(`${dirPath}/${fileName}`);
     const data = JSON.parse(rawData.toString()) as GuideJson;
-    guides.push(...data.guides);
+    if (data.guides.length) {
+      guides.push(...data.guides);
+    }
   });
 
   const categories = await prismaClient.guideCategory.findMany();
@@ -27,9 +29,8 @@ export async function seed(prismaClient: PrismaClient) {
   await prismaClient.$executeRawUnsafe(`TRUNCATE TABLE "Guide" CASCADE;`);
   const response = await prismaClient.guide.createMany({
     data: guides.map((guide: any) => {
-      const category = categories.find(
-        (c) => c.id === guide.primary.categoryId
-      );
+      const categoryId = guide.primary.categoryId ?? guide.secondary.categoryId;
+      const category = categories.find((c) => c.id === categoryId);
       return {
         game_id: BlopsColdWarId,
         guide_category_id: category?.id ?? -1,

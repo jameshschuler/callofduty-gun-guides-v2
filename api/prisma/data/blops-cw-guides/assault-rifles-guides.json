@@ -52,19 +52,7 @@
           "Airborne Elastic Wrap"
         ]
       },
-      "secondary": {
-        "category": "Shotgun",
-        "categoryId": 4,
-        "name": "Gallo SA12",
-        "attachments": [
-          "Infantry V-Choke or Agency Choke",
-          "25.2\"\" Task Force",
-          "SWAT 5mw Laser Sight",
-          "-- TODO: magazine attachment --",
-          "Marathon Stock or No Stock"
-        ],
-        "link": "https://www.youtube.com/watch?v=ngDF5H0a2tg"
-      },
+      "secondary": {},
       "perks": [["Forward Intel"], ["Gearhead"], ["Ninja"]],
       "equipment": {
         "lethal": "Semtex",

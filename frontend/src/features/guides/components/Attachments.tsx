@@ -10,7 +10,7 @@ export function Attachments({ attachments }: AttachmentsProps) {
     <Flex flexWrap="wrap">
       {attachments &&
         attachments.map((attachment: string, index: number) => {
-          return <GuideBox key={index} text={attachment} textSize="md"></GuideBox>;
+          return <GuideBox mx="2" key={index} text={attachment} textSize="md"></GuideBox>;
         })}
     </Flex>
   );

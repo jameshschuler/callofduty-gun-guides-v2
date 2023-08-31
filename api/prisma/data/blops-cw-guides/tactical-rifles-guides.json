@@ -18,13 +18,7 @@
           "GRU Elastic Wrap"
         ]
       },
-      "secondary": {
-        "name": "Gallo SA12",
-        "attachments": [],
-        "link": "https://www.youtube.com/watch?v=ngDF5H0a2tg",
-        "category": "Shotgun",
-        "categoryId": 4
-      },
+      "secondary": {},
       "perks": [
         ["Flak Jacket", "Tactical Mask"],
         ["Assassin", "Scavenger"],
